@@ -18,6 +18,13 @@ Android SDK Build Tools 25.0.3
 kotlin 1.1.3-2  
 gradle 2.3.3  
 
+## Preparation
+
+You should create new project on Firebase. Please create it on [Firebase Console](https://console.firebase.google.com).  
+And then you'll download a `google-services.json` and copy this into your project's module folder, typically `app/`.
+
+※ Please see [this](https://firebase.google.com/docs/android/setup) for further details.
+
 ## Usage
 
 If you want to change to custom data, you can edit pendingIntent in MyFirebaseMessagingService.
