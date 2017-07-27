@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        binding.id.text = intent.getStringExtra("id")
-        binding.type.text = intent.getStringExtra("type")
+        binding.id.text = intent.getStringExtra(ARG_ID)
+        binding.type.text = intent.getStringExtra(ARG_TYPE)
     }
 }
